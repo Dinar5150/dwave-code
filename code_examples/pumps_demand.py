@@ -1,7 +1,5 @@
 from dimod import BinaryQuadraticModel
-from dimod import make_quadratic
 from dwave.samplers import SimulatedAnnealingSampler
-import numpy as np
 
 bqm = BinaryQuadraticModel("BINARY")  # Specify dtype to handle larger numbers
 
